@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Home from './pages/home'
+import Home from './container/home'
 class Router extends Component {
   constructor(props) {
     super(props);

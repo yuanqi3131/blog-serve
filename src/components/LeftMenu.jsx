@@ -61,14 +61,14 @@ class LeftMenu extends Component {
     return data.map(item => {
       if (!item.children) {
         return (
-          <Menu.Item key={item.key}>
+          <Menu.Item key={item.key + item.id}>
             <span>{item.name}</span>
           </Menu.Item>
         )
       } else {
         return (
           <SubMenu
-            key={item.key}
+            key={item.key + item.id}
             title={
               <span>
                 <span>{item.name}</span>

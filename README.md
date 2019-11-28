@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+### 一、项目介绍
 
-### `npm start`
+1）说明：本系统为博客后台管理系统，采用前后端分离，本项目为前端项目
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2）所用技术
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+​	  前端：react+antd+axios+moment+braft-editor
 
-### `npm test`
+​	  后端：egg.js+egg-sequelize+mysql
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3）项目截图
 
-### `npm run build`
+**登录页：**
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image-20191128155240576](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191128155240576.png)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+**文章列表：**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image-20191128155902011](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191128155902011.png)
 
-### `npm run eject`
+**发布文章：**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![image-20191128155928671](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191128155928671.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**角色管理：**
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![image-20191128155952817](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191128155952817.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+菜单管理：
 
-## Learn More
+![image-20191128160007340](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191128160007340.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+用户管理：
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image-20191128160029758](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191128160029758.png)
 
-### Code Splitting
+**标签管理：**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+![image-20191128160110620](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191128160110620.png)
 
-### Analyzing the Bundle Size
+### 二、运行项目
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+1）先下载
 
-### Making a Progressive Web App
+[后端项目]: https://github.com/yuanqi3131/blog-egg	"传送门"
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+2）修改数据库密码，改成你的数据库用户名与密码
 
-### Advanced Configuration
+![image-20191128163256771](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191128163256771.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+分别对应开发 测试 生产环境的数据库用户名密码
 
-### Deployment
+![image-20191128163325445](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191128163325445.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+然后：
 
-### `npm run build` fails to minify
+```
+$ npm i
+$ npx sequelize db:migrate
+$ npm run dev
+$ open http://localhost:7001/
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+3）下载本项目
+
+```
+$ npm i
+$ npm start
+```
+
+3) 执行sql 文件 ，在所建立的数据库blog数据库中执行database目录下的blog.sql文件
+
+4）打开网页
+
+```
+$ http://localhost:3000/
+```
+

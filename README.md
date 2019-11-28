@@ -14,31 +14,31 @@
 
 **登录页：**
 
-![image-20191128155240576](../public/screenShow/image-20191128155240576.png)
+![image-20191128155240576](https://github.com/yuanqi3131/blog-serve/blob/master/public/screenShot/image-20191128155240576.png)
 
 **文章列表：**
 
-![image-20191128155902011](../public/screenShow/image-20191128155902011.png)
+![image-20191128155902011](https://github.com/yuanqi3131/blog-serve/blob/master/public/screenShot/image-20191128155902011.png)
 
 **发布文章：**
 
-![image-20191128155928671](../public/screenShow/image-20191128155928671.png)
+![image-20191128155928671](https://github.com/yuanqi3131/blog-serve/blob/master/public/screenShot/image-20191128155928671.png)
 
 **角色管理：**
 
-![image-20191128155952817](../public/screenShow/image-20191128155952817.png)
+![image-20191128155952817](https://github.com/yuanqi3131/blog-serve/blob/master/public/screenShot/image-20191128155952817.png)
 
 菜单管理：
 
-![image-20191128160007340](../public/screenShow/image-20191128160007340.png)
+![image-20191128160007340](https://github.com/yuanqi3131/blog-serve/blob/master/public/screenShot/image-20191128160007340.png)
 
 用户管理：
 
-![image-20191128160029758](../public/screenShow/image-20191128160029758.png)
+![image-20191128160029758](https://github.com/yuanqi3131/blog-serve/blob/master/public/screenShot/image-20191128160029758.png)
 
 **标签管理：**
 
-![image-20191128160110620](../public/screenShow/image-20191128160110620.png)
+![image-20191128160110620](https://github.com/yuanqi3131/blog-serve/blob/master/public/screenShot/image-20191128160110620.png)
 
 ### 二、运行项目
 
@@ -48,11 +48,11 @@
 
 2）修改数据库密码，改成你的数据库用户名与密码
 
-![image-20191128163256771](../public/screenShow/image-20191128163256771.png)
+![image-20191128163256771](https://github.com/yuanqi3131/blog-serve/blob/master/public/screenShot/image-20191128163256771.png)
 
 分别对应开发 测试 生产环境的数据库用户名密码
 
-![image-20191128163325445](../public/screenShow/image-20191128163325445.png)
+![image-20191128163325445](https://github.com/yuanqi3131/blog-serve/blob/master/public/screenShot/image-20191128163325445.png)
 
 然后：
 

@@ -42,9 +42,7 @@
 
 ### 二、运行项目
 
-1）先下载
-
-[后端项目]: https://github.com/yuanqi3131/blog-egg	"传送门"
+1）先下载后端项目: https://github.com/yuanqi3131/blog-egg
 
 2）修改数据库密码，改成你的数据库用户名与密码
 

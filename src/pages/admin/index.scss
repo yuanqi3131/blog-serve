@@ -1,0 +1,39 @@
+.layout{
+  height: 100%;
+  .layout-layout{
+    .header{
+      background: #40a9ff;
+      display: flex;
+      justify-content: flex-end;
+      color: #fff;
+      padding: 0 20px;
+      .header-welcome{
+        margin-right: 12px;
+      }
+    }
+    .layout-content{
+      background: #eef5f9;
+      .content-header{
+        height: 60px;
+        background: #fff;
+        margin-bottom: 30px;
+        box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1)
+      }
+      .conten-router{
+        min-height: calc(100% - 92px);
+        margin: 0 30px;
+        background: #fff;
+        box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1)
+      }
+    }
+  }
+  .sider-title{
+    font-size: 20px;
+    color: #fff;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+  }
+}

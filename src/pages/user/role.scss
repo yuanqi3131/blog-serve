@@ -1,0 +1,24 @@
+.header-title {
+  font-size: 20px;
+  padding: 20px;
+}
+.role-button {
+  background: #ffa500;
+  color: #fff;
+}
+.upload-class {
+  display: flex;
+  justify-content: center;
+}
+.avatar-class {
+  text-align: center;
+  & > img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
+
+.assign-menu {
+  max-height: 380px;
+  overflow: auto;
+}
